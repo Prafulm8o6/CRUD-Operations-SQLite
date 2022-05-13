@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Insert Data"
+        android:textSize="35sp"></TextView>
+
+    <EditText
+        android:id="@+id/etFruitName"
+        android:paddingVertical="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fruit name"></EditText>
+
+    <EditText
+        android:id="@+id/etFruitPrize"
+        android:paddingVertical="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fruit prize"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddData"
+        android:paddingVertical="25dp"
+        android:textSize="20sp"
+        android:text="Add"
+        android:fontFamily="cursive"></Button>
+
+</LinearLayout>
